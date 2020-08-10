@@ -1,0 +1,65 @@
+$light_color: #e4f9f5;
+$primary_color: #11999e;
+$bright_color: #30e3ca;
+$contrast_color: #40514e;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.top-navbar {
+  border-bottom: $bright_color 3px solid;
+}
+
+.filter-navbar {
+  background-color: $primary_color;
+  color: $light_color !important;
+  box-shadow: 2px #888888;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  a {
+    color: $light_color !important;
+  }
+  .navbar-toggler {
+    border-color: $light_color;
+    color: $light_color;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(228, 249, 245, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+.secondary-btn-style {
+  color: $light_color;
+  background-color: $contrast_color;
+}
+
+.primary-btn-style {
+  color: $light_color;
+  background-color: $primary_color;
+}
+
+.primary-color {
+  color: $primary_color;
+}
+
+.contrast-color {
+  color: $contrast_color;
+}
+
+.remove-item {
+  color: $primary_color;
+  text-decoration: underline;
+  cursor: pointer;
+}

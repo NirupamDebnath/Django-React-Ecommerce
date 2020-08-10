@@ -1,0 +1,66 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.top-navbar {
+  border-bottom: #30e3ca 3px solid;
+}
+
+.filter-navbar {
+  background-color: #11999e;
+  color: #e4f9f5 !important;
+  -webkit-box-shadow: 2px #888888;
+          box-shadow: 2px #888888;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.filter-navbar a {
+  color: #e4f9f5 !important;
+}
+
+.filter-navbar .navbar-toggler {
+  border-color: #e4f9f5;
+  color: #e4f9f5;
+}
+
+.filter-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(228, 249, 245, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.secondary-btn-style {
+  color: #e4f9f5;
+  background-color: #40514e;
+}
+
+.primary-btn-style {
+  color: #e4f9f5;
+  background-color: #11999e;
+}
+
+.primary-color {
+  color: #11999e;
+}
+
+.contrast-color {
+  color: #40514e;
+}
+
+.remove-item {
+  color: #11999e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
