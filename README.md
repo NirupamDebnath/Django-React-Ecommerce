@@ -1,1 +1,1 @@
-# Django_React_Ecommerce
+# Django-React-Ecommerce
